@@ -66,3 +66,10 @@ For each issue: severity, exact evidence, user/business impact, minimal durable 
 - A static source check verified: duplicate IDs none, hash targets all exist, CSS curly-brace/parenthesis balance zero, JS curly-brace/parenthesis balance zero, no mailto placeholder, reduced-motion rule present, menu aria state present.
 - Not verified: browser rendering, browser-based interaction, keyboard/screen-reader audit, contrast measurements, page speed, mobile overflow in real viewport, deployment success. Static balance checks are not equivalent to CSS/HTML/JS parser tests.
 - Real event details, verified achievements, actual videos, course availability, official contact email and organization identity details remain content dependencies.
+
+
+## Live deployment note (2026-11-21)
+
+- Vercel Git linking failed due to repository access permission (`repo_no_access`). A standalone deployment was created by uploading the current `index.html` source directly from the GitHub main branch.
+- Deployment reported READY and generated alias `nano-tech-tau.vercel.app` (also `nano-tech-surya-s-projects-ce912c20.vercel.app`). This standalone deployment is not automatically linked to Git pushes.
+- The webpage fetch/visual rendering could not be verified through the available browser tools. Vercel deployment status is confirmed, not visual or interaction QA.
