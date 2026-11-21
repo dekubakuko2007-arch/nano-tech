@@ -1,3 +1,4 @@
+:root{--gold2:var(--gold-light);}
 /* MSB / engineering studio system v2 — built around content, not effects */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 :root{--navy:#071326;--navy2:#0d1e38;--paper:#f4f1e8;--white:#fffdfa;--ink:#152139;--muted:#697386;--gold:#d5a74d;--gold-light:#efd28d;--indigo:#4941a7;--blue:#254f91;--line:#d8d5cd;--darkline:#34435a;--serif:Georgia,'Times New Roman',serif;--sans:'Manrope',sans-serif;--mono:'IBM Plex Mono',monospace}
