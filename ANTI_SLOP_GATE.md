@@ -52,3 +52,17 @@ For each technique, answer: Why does this fit MSB and this section? If the same 
 
 ## Review format
 For each issue: severity, exact evidence, user/business impact, minimal durable fix, and verification conditions. Remove or simplify before adding new decoration.
+
+
+## Audit iteration: editorial rebuild (2026-11-21)
+
+- Rebuilt index.html composition to reduce the repeated container/card treatment. College events, hackathon services, method, course roadmap, evidence showcase, videos and contact now use differentiated section layouts and content structures.
+- Removed the old fake email mailto target. Inquiry route now uses the public repository issue-creation page; this is a temporary public route and not a private contact channel.
+- Removed the decorative faux-video play cards. Video section explicitly describes planned editorial slots until real footage/URLs are provided.
+- Removed emoji symbols and faux UI stacks; replaced with typographic hierarchy, numbered rows, simple separators and a single intentional orbital hero motif.
+- Reduced ambient effects; no hover cards, nested card grids or scroll-reveal content hiding. Animation is limited to a restrained static orbital composition.
+- Mobile menu tracks expanded/collapsed state and updates its label. Navigation links close the menu. Initial Home navigation state is set.
+- Added responsive layout changes, focus styles, reduced-motion override, section scroll offset and accessible navigation labels.
+- A static source check verified: duplicate IDs none, hash targets all exist, CSS curly-brace/parenthesis balance zero, JS curly-brace/parenthesis balance zero, no mailto placeholder, reduced-motion rule present, menu aria state present.
+- Not verified: browser rendering, browser-based interaction, keyboard/screen-reader audit, contrast measurements, page speed, mobile overflow in real viewport, deployment success. Static balance checks are not equivalent to CSS/HTML/JS parser tests.
+- Real event details, verified achievements, actual videos, course availability, official contact email and organization identity details remain content dependencies.
