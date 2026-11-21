@@ -73,3 +73,13 @@ For each issue: severity, exact evidence, user/business impact, minimal durable 
 - Vercel Git linking failed due to repository access permission (`repo_no_access`). A standalone deployment was created by uploading the current `index.html` source directly from the GitHub main branch.
 - Deployment reported READY and generated alias `nano-tech-tau.vercel.app` (also `nano-tech-surya-s-projects-ce912c20.vercel.app`). This standalone deployment is not automatically linked to Git pushes.
 - The webpage fetch/visual rendering could not be verified through the available browser tools. Vercel deployment status is confirmed, not visual or interaction QA.
+
+
+## Design reset iteration (2026-11-21)
+
+- Rejected previous generic dark-orbit corporate design; rebuilt the homepage around an independent editorial/engineering-studio art direction: warm paper, ink, indigo blocks and restrained gold accents, typographic composition and section-specific layouts.
+- Home hero uses an asymmetrical typographic/brand composition. College event offers are dark editorial content, hackathon services are a compact numbered list, process is a four-stage column, courses use a contrasting indigo block, proof is editorial, videos use simple topic text entries, and contact is a gold section.
+- Replaced generic headline and template copy; imagery is not artificially generated or fabricated, no fake awards, metrics, testimonials, video players or course claims.
+- Updated main page commit: 523c44674fcaaaf7c32bec8953b8214768431043.
+- Static source QA: no duplicate IDs; no broken internal hash targets; CSS braces/parentheses balance; JS brace balance; reduced-motion rule and aria-expanded menu present. Static source checks only; browser rendering/functional testing not yet confirmed.
+- Direct standalone Vercel deployment reported READY at nano-tech-eyz3k1apm-surya-s-projects-ce912c20.vercel.app. This does not establish successful visual QA or Git-linked continuous deployment.
