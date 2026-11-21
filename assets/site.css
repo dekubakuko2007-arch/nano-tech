@@ -56,3 +56,27 @@ header{background:#061a3b;border-bottom:1px solid rgba(220,168,59,.35)}
 footer{background:#04132d;border-top:1px solid rgba(220,168,59,.3)}
 .progress{display:none!important}
 @media(max-width:700px){.hero{padding:50px 0 40px}.hero .grid{grid-template-columns:1fr}.logoArea{min-height:220px}.logoArea img{width:170px}.section{padding:60px 0}}
+/* Final MSB brand balance: gold dominant, indigo secondary, clean warm neutral */
+:root{--gold:#c99a36;--gold-light:#e8bd63;--navy:#17162d;--navy2:#242044;--paper:#fbf8f1;--ink:#242238;--muted:#747181;--indigo:#4a358c;--blue:#4b5697;--line:#e5dfd3;--darkline:#42395e}
+body{background:var(--paper);color:var(--ink)}
+header,footer,.dark,.pagehero{background:#17162d}
+.hero{background:radial-gradient(ellipse at 76% 48%,#32244b 0%,#211a39 45%,#17162d 78%)}
+.hero .eyebrow,.pagehero .eyebrow{color:var(--gold-light)}
+.hero h1 em,.pagehero h1 em{color:#e8bd63}
+.cta,.button{background:#e8bd63;color:#17162d;border-radius:3px}
+.head h2,.card h3,.item h3{color:var(--ink)}
+.eyebrow,.head .eyebrow,.card .num,.card a,.item .num{color:var(--indigo)}
+.card{background:#fff;border-color:var(--line)}
+.card:nth-child(odd){border-right-color:var(--line)}
+.card:hover{background:#f5f0e7}
+.dark .head h2,.dark .card h3{color:#fff}
+.dark .head .eyebrow,.dark .card .num,.dark .card a{color:var(--gold-light)}
+.dark .card{background:transparent;border-color:var(--darkline)}
+.dark .card:nth-child(odd){border-right-color:var(--darkline)}
+.dark .card p,.hero p,.pagehero p{color:#c9c6d4}
+.logoArea img{width:min(290px,76%);background:#fff;border-radius:8px;box-shadow:0 18px 48px rgba(0,0,0,.22)}
+.brand img{width:88px;height:74px;object-fit:contain;flex-shrink:0;background:#fff;border-radius:6px}
+.brand b{display:none}
+.notice{background:#f2ecdf;border-left-color:var(--gold)}
+.progress{display:none!important}
+@media(max-width:700px){.brand img{width:72px;height:64px}.hero .grid{grid-template-columns:1fr}.logoArea{border-left:0;border-top:1px solid rgba(201,151,48,.3)}}
